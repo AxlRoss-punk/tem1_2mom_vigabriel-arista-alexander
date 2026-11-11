@@ -10,7 +10,7 @@
 - El 11 de noviembre de 2026 el estudiante confirmó en el chat que el docente
   autorizó desarrollar las soluciones con IA. Esta es una confirmación del
   estudiante; no se presenta como una autorización documental del docente.
-- Se declara asistencia de Codex para preparación, código y verificación.
+- Se declara el uso de IA como apoyo para preparación, código y verificación.
   El estudiante debe comprender el código y redactar su interpretación en sus
   propias palabras, como exige el PDF.
 

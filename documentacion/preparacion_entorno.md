@@ -10,8 +10,8 @@ abajo corresponden a la intervención anterior.
 
 Alcance: autenticación de GitHub, comprobación de la estructura local y
 planificación de la ingesta de Sample Superstore. Este documento registra
-asistencia técnica de Codex; no contiene respuestas ni consultas de las
-preguntas evaluadas. No se encontró una política docente en los archivos
+las comprobaciones técnicas realizadas; no contiene respuestas ni consultas
+de las preguntas evaluadas. No se encontró una política docente en los archivos
 disponibles: las condiciones específicas deberán contrastarse con la consigna
 antes de preparar entregables evaluados.
 

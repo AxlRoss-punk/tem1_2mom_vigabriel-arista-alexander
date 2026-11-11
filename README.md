@@ -60,5 +60,5 @@ No se modificarán las bases `db_alexander`, `dbec_alexander`, `db3_alexander`
 ni `db4_alexander`.
 
 El estudiante confirmó autorización docente para desarrollar soluciones con
-IA. Se declara asistencia de Codex; la comprensión del código, la revisión y
-las interpretaciones finales corresponden al estudiante.
+IA. Se declara su uso como apoyo técnico; la comprensión del código, la
+revisión y las interpretaciones finales corresponden al estudiante.

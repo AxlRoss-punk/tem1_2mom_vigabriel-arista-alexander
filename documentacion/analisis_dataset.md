@@ -59,7 +59,7 @@
 
 Este documento recoge los resultados del análisis previo a la ingesta.
 
-Los hallazgos proceden de la inspección técnica del CSV mediante Codex.
+Los hallazgos proceden de la inspección técnica del CSV en modo lectura.
 La identificación de Windows-1252 es una inferencia respaldada por los
 bytes y caracteres observados, no una declaración explícita del archivo.
 
