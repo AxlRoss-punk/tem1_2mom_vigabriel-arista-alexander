@@ -89,11 +89,14 @@ Ejemplos obtenidos desde Hive:
   y ejemplos reales.
 - [Verificación JSON](../evidencias/p01_verificacion.json): resumen automático
   de la comparación completa y de los hashes.
-- Captura del estudiante: **pendiente**, ruta prevista
-  `evidencias/p01_modelo_carga.png`.
+- [Captura del estudiante](../evidencias/p01_modelo_carga.png): recibida y
+  verificada visualmente; muestra ambas tablas con 9.994 filas. Se corrigió
+  únicamente su nombre desde `evidenciasp01_modelo_carga.png`; el contenido y
+  su SHA-256 se conservaron sin cambios.
 
-La implementación y su comprobación están realizadas. La pregunta no se da
-por cerrada hasta incorporar la captura y la revisión del estudiante.
+La implementación, su comprobación y la captura están incorporadas.
+La interpretación y la conclusión quedan disponibles para la revisión final
+del estudiante antes de entregar.
 
 ## Interpretación técnica para revisar
 

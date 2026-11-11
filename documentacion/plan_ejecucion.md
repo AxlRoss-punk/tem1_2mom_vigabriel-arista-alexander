@@ -62,6 +62,11 @@ Las capturas se solicitarán al estudiante en el momento de la ejecución y no
 se presentará un registro textual como sustituto de una captura. No hace falta
 capturar todos los comandos de preparación. Antes de continuar tras una
 solicitud de captura se esperará la confirmación de que fue guardada.
+El estudiante indicó continuar antes de confirmar la primera captura; por ello
+se avanzó con la auditoría de lectura y se mantuvieron explícitamente
+pendientes las evidencias faltantes, sin cerrar las preguntas.
+Durante ese trabajo se recibió y verificó visualmente la captura de la primera
+pregunta; la segunda captura sigue pendiente.
 
 ## Avance comprobado
 
@@ -69,5 +74,8 @@ solicitud de captura se esperará la confirmación de que fue guardada.
   todos los campos. Commit `d2f184e` publicado y comprobado en GitHub.
 - Pregunta 1: base independiente y tablas cargadas con 9.994 filas cada una;
   209.874 valores comparados satisfactoriamente. Captura del estudiante
-  pendiente antes de cerrar la pregunta y continuar.
-- Preguntas 2 a 8: pendientes; no se generaron resultados anticipados.
+  recibida, verificada e incorporada al repositorio.
+- Pregunta 2: auditoría ejecutada y contrastada con el CSV. Se verificaron
+  5.009 órdenes y 793 clientes, sin incumplimientos en los controles requeridos.
+  Captura del estudiante pendiente para cerrar la pregunta.
+- Preguntas 3 a 8: pendientes; no se generaron resultados anticipados.

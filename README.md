@@ -20,6 +20,7 @@ existente está en `/home/dante/LI16_Apache_Hive/docker-hadoop-hive-parquet`.
 - [Plan por bloques y declaración de uso de IA](documentacion/plan_ejecucion.md).
 - [Diccionario de datos](documentacion/diccionario_datos.md).
 - [Pregunta 1: modelo, carga y resultados verificados](documentacion/p01_modelo_carga.md).
+- [Pregunta 2: auditoría de calidad y resultados verificados](documentacion/p02_auditoria_calidad.md).
 - [Evidencias](evidencias/README.md).
 
 ## Preparación del dataset
@@ -44,14 +45,27 @@ existen, no repetir la preparación: consultar y verificar el registro previo.
 
 La preparación está verificada y publicada. La pregunta 1 tiene ambas tablas
 cargadas con 9.994 registros y una comparación satisfactoria de los 209.874
-valores. Falta la captura del estudiante para cerrarla; las preguntas 2 a 8 no
-se han ejecutado todavía.
+valores. La pregunta 2 tiene la auditoría ejecutada y contrastada: 5.009 órdenes
+únicas, 793 clientes y cero incumplimientos en los controles requeridos.
+La captura de la pregunta 1 está recibida y verificada; la de la pregunta 2
+continúa pendiente. Las preguntas 3 a 8 no se han ejecutado todavía.
 
 Para mostrar los conteos reales en una tabla y tomar la captura:
 
 ```powershell
 wsl -d Ubuntu -- python3 -B scripts/mostrar_carga.py
 ```
+
+Para mostrar el resumen real de auditoría sin modificar datos ni archivos:
+
+```powershell
+wsl -d Ubuntu -- python3 -B scripts/auditar_calidad.py --mostrar
+```
+
+Los scripts HiveQL de la pregunta 2 son `04_p02_resumen.sql`,
+`05_p02_nulls.sql` y `06_p02_incidencias.sql`. Los registros automáticos se
+guardan en `evidencias/p02_*`; son salidas reales de consola y verificaciones,
+no capturas del estudiante.
 
 La carga inicial está en `scripts/cargar_superstore.py`; rechaza una segunda
 ejecución sobre la base existente. Las preguntas solo se declararán terminadas

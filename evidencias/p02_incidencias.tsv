@@ -1,0 +1,7 @@
+row_id	order_id	order_date	ship_date	sales	quantity	discount
+row_id	postal_code	city	state
+186	6824	Fairfield	Connecticut
+198	7090	Westfield	New Jersey
+268	7960	Morristown	New Jersey
+299	7109	Belleville	New Jersey
+300	7109	Belleville	New Jersey
