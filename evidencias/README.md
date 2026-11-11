@@ -14,8 +14,13 @@
   2, contrastada con el CSV original.
 - `p02_ejecucion_intento1.txt`: registro del intento que Hive rechazó por un
   `ORDER BY` corregido posteriormente; no es el resultado válido de la auditoría.
-- La captura `p02_auditoria_calidad.png` también está pendiente.
+- `p02_auditoria_calidad.png`: captura directa de la ventana de una ejecución
+  real de Beeline, autorizada e inspeccionada visualmente.
+- `p02_auditoria_calidad.captura.json`: procedencia de esa captura, con hashes,
+  dimensiones, horas UTC y código de salida 0.
 - No guardar tokens, contraseñas ni archivos de configuración privados.
 
-La preparación no requiere capturas individuales. Para los resultados de las
-preguntas se indicarán la ventana, el resultado y el momento exacto de captura.
+La preparación no requiere capturas individuales. Las capturas se obtienen de
+ejecuciones reales; las automatizadas se identifican mediante su registro de
+procedencia. Los estados pendientes de los registros históricos corresponden
+al momento de aquellas ejecuciones.

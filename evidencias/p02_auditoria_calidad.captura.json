@@ -1,0 +1,13 @@
+{
+    "captured_at_utc":  "2026-11-11T17:04:15.6752223Z",
+    "capture_method":  "Captura de pixeles de la ventana de Windows Terminal que ejecuto Beeline",
+    "sql_file":  "scripts/04_p02_resumen.sql",
+    "sql_sha256":  "02176785def4ba57fb2a0faebdbe7cbb1dc6e6076c8179827ed1d5b20deba147",
+    "native_exit_code":  0,
+    "query_finished_at_utc":  "2026-11-11T17:04:14.2208353Z",
+    "png_file":  "evidencias/p02_auditoria_calidad.png",
+    "png_sha256":  "3c6bd5ea8f995e07013944d454c9f371c659e037f5d29a8d4bc9c88acd8f745d",
+    "width":  2560,
+    "height":  1504,
+    "image_content_edited":  false
+}

@@ -66,7 +66,8 @@ El estudiante indicó continuar antes de confirmar la primera captura; por ello
 se avanzó con la auditoría de lectura y se mantuvieron explícitamente
 pendientes las evidencias faltantes, sin cerrar las preguntas.
 Durante ese trabajo se recibió y verificó visualmente la captura de la primera
-pregunta; la segunda captura sigue pendiente.
+pregunta. Después el estudiante delegó la toma de capturas; la segunda se
+obtuvo automáticamente de una ventana real de ejecución y también se verificó.
 
 ## Avance comprobado
 
@@ -77,5 +78,7 @@ pregunta; la segunda captura sigue pendiente.
   recibida, verificada e incorporada al repositorio.
 - Pregunta 2: auditoría ejecutada y contrastada con el CSV. Se verificaron
   5.009 órdenes y 793 clientes, sin incumplimientos en los controles requeridos.
-  Captura del estudiante pendiente para cerrar la pregunta.
+  Captura de la ejecución real obtenida con autorización e inspeccionada.
 - Preguntas 3 a 8: pendientes; no se generaron resultados anticipados.
+- Ante la proximidad de entrega se detuvo el desarrollo adicional y se
+  priorizó publicar el trabajo comprobado; véase `estado_entrega.md`.

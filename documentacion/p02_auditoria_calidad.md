@@ -148,8 +148,8 @@ ausencias tipadas ni incumplimientos numéricos y cronológicos. Las observacion
 postales y de espacios deben conservarse documentadas al diseñar los análisis.
 
 El estudiante debe revisar esta interpretación y redactar sus conclusiones en
-sus propias palabras. La comprobación técnica está realizada; la pregunta
-permanece pendiente de su captura y revisión final.
+sus propias palabras. La implementación, la ejecución y la evidencia visual
+están completas; queda la revisión final del estudiante antes de entregar.
 
 ## Evidencias y errores registrados
 
@@ -164,12 +164,17 @@ permanece pendiente de su captura y revisión final.
   correctamente las tres consultas. El intento fallido no modificó datos.
 - Persisten las advertencias de SLF4J y `/home/hive/.beeline` ya documentadas;
   la ejecución correcta terminó con código 0.
-- Captura prevista: **pendiente**, `evidencias/p02_auditoria_calidad.png`.
+- [Captura real de la auditoría](../evidencias/p02_auditoria_calidad.png):
+  obtenida automáticamente de una ventana exclusiva de Windows Terminal,
+  después de ejecutar el SQL con código de salida 0; inspeccionada visualmente.
+- [Procedencia de la captura](../evidencias/p02_auditoria_calidad.captura.json):
+  hashes del SQL y del PNG, dimensiones, horas UTC y código de salida.
 
 Se avanzó con esta auditoría de lectura tras la indicación del estudiante de
 continuar. Durante el trabajo se recibió y verificó la captura de la pregunta
-1, incorporada como `evidencias/p01_modelo_carga.png`. La captura de la pregunta
-2 continúa pendiente.
+1, incorporada como `evidencias/p01_modelo_carga.png`. Posteriormente el
+estudiante delegó la toma de capturas y se obtuvo la de la pregunta 2 mediante
+una ejecución real, conservando sus píxeles sin edición.
 
 ## Revalidación tras confirmar la evidencia de la pregunta 1
 
@@ -187,5 +192,6 @@ modificaron tablas ni se sobrescribieron los registros de la primera auditoría.
 - [Registro de la revalidación](../evidencias/p02_revalidacion.txt).
 - [Resultado y comparaciones](../evidencias/p02_revalidacion.json).
 
-La evidencia pendiente corresponde únicamente a la captura del estudiante de
-la pregunta 2, prevista como `evidencias/p02_auditoria_calidad.png`.
+La captura `evidencias/p02_auditoria_calidad.png` ya está incorporada. Los
+registros históricos que indicaban su ausencia se conservan como constancia
+del estado en el momento de cada ejecución.

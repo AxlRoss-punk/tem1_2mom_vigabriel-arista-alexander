@@ -21,6 +21,7 @@ existente está en `/home/dante/LI16_Apache_Hive/docker-hadoop-hive-parquet`.
 - [Diccionario de datos](documentacion/diccionario_datos.md).
 - [Pregunta 1: modelo, carga y resultados verificados](documentacion/p01_modelo_carga.md).
 - [Pregunta 2: auditoría de calidad y resultados verificados](documentacion/p02_auditoria_calidad.md).
+- [Estado de entrega: trabajo verificado y preguntas pendientes](documentacion/estado_entrega.md).
 - [Evidencias](evidencias/README.md).
 
 ## Preparación del dataset
@@ -47,8 +48,9 @@ La preparación está verificada y publicada. La pregunta 1 tiene ambas tablas
 cargadas con 9.994 registros y una comparación satisfactoria de los 209.874
 valores. La pregunta 2 tiene la auditoría ejecutada y contrastada: 5.009 órdenes
 únicas, 793 clientes y cero incumplimientos en los controles requeridos.
-La captura de la pregunta 1 está recibida y verificada; la de la pregunta 2
-continúa pendiente. Las preguntas 3 a 8 no se han ejecutado todavía.
+Las capturas de las preguntas 1 y 2 están incorporadas y verificadas. La
+segunda se capturó automáticamente de la ventana de una ejecución real de
+Beeline, con autorización del estudiante. Las preguntas 3 a 8 están pendientes.
 
 Para mostrar los conteos reales en una tabla y tomar la captura:
 
