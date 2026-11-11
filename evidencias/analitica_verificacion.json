@@ -1,0 +1,664 @@
+{
+  "verified_at_utc": "2026-11-11T17:31:57.365707+00:00",
+  "checks_passed": 61428,
+  "source_sha256": "58fb59c63089e564d835e4aabe19d371757de1137a5bf1888243ae386c4b7a97",
+  "all_questions_3_to_8_match_csv": true,
+  "verified_queries": [
+    "07_p03_evolucion",
+    "08_p03_regiones",
+    "09_p04_clientes",
+    "10_p04_segmentos",
+    "11_p05_productos",
+    "12_p05_seleccion",
+    "13_p06_rangos",
+    "14_p06_subcategorias",
+    "21_p05_volumen_unidades",
+    "15_p07_mensual",
+    "16_p07_extremos",
+    "17_p08_pareto",
+    "18_p08_resumen"
+  ],
+  "regions": [
+    {
+      "region": "West",
+      "ventas": "725457.8245",
+      "ganancia": "108418.4489",
+      "margen_pct": "14.9448",
+      "rk_mejor": "1",
+      "rk_peor": "4"
+    },
+    {
+      "region": "East",
+      "ventas": "678781.2400",
+      "ganancia": "91522.7800",
+      "margen_pct": "13.4834",
+      "rk_mejor": "2",
+      "rk_peor": "3"
+    },
+    {
+      "region": "South",
+      "ventas": "391721.9050",
+      "ganancia": "46749.4303",
+      "margen_pct": "11.9343",
+      "rk_mejor": "3",
+      "rk_peor": "2"
+    },
+    {
+      "region": "Central",
+      "ventas": "501239.8908",
+      "ganancia": "39706.3625",
+      "margen_pct": "7.9216",
+      "rk_mejor": "4",
+      "rk_peor": "1"
+    }
+  ],
+  "rfm_reference": "2017-12-30",
+  "rfm_customers": 793,
+  "rfm_segments": [
+    {
+      "segmento": "En riesgo",
+      "clientes": "201",
+      "ventas": "693276.3569",
+      "recencia_media": "255.38",
+      "frecuencia_media": "6.66"
+    },
+    {
+      "segmento": "Alto valor",
+      "clientes": "104",
+      "ventas": "553088.7041",
+      "recencia_media": "24.26",
+      "frecuencia_media": "9.3"
+    },
+    {
+      "segmento": "Otros",
+      "clientes": "269",
+      "ventas": "522254.1464",
+      "recencia_media": "198.91",
+      "frecuencia_media": "4.55"
+    },
+    {
+      "segmento": "Recurrentes",
+      "clientes": "131",
+      "ventas": "369192.2211",
+      "recencia_media": "52.18",
+      "frecuencia_media": "8.52"
+    },
+    {
+      "segmento": "Recientes",
+      "clientes": "88",
+      "ventas": "159389.4318",
+      "recencia_media": "25.19",
+      "frecuencia_media": "4.15"
+    }
+  ],
+  "product_count": 1862,
+  "selected_products": [
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Furniture",
+      "product_id": "FUR-CH-10000454",
+      "ventas": "10637.5280",
+      "ganancia": "1927.4420",
+      "margen_pct": "18.1193",
+      "rank_categoria": "1",
+      "dense_categoria": "1"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Furniture",
+      "product_id": "FUR-CH-10004063",
+      "ventas": "8665.1940",
+      "ganancia": "1558.5910",
+      "margen_pct": "17.9868",
+      "rank_categoria": "2",
+      "dense_categoria": "2"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Furniture",
+      "product_id": "FUR-CH-10002320",
+      "ventas": "6483.7960",
+      "ganancia": "1540.7040",
+      "margen_pct": "23.7624",
+      "rank_categoria": "3",
+      "dense_categoria": "3"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Furniture",
+      "product_id": "FUR-CH-10004086",
+      "ventas": "8430.9970",
+      "ganancia": "1388.6348",
+      "margen_pct": "16.4706",
+      "rank_categoria": "4",
+      "dense_categoria": "4"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Furniture",
+      "product_id": "FUR-CH-10001854",
+      "ventas": "8774.5000",
+      "ganancia": "1305.6456",
+      "margen_pct": "14.8800",
+      "rank_categoria": "5",
+      "dense_categoria": "5"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Office Supplies",
+      "product_id": "OFF-BI-10003527",
+      "ventas": "27453.3840",
+      "ganancia": "7753.0390",
+      "margen_pct": "28.2407",
+      "rank_categoria": "1",
+      "dense_categoria": "1"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Office Supplies",
+      "product_id": "OFF-BI-10001120",
+      "ventas": "15875.9160",
+      "ganancia": "3345.2823",
+      "margen_pct": "21.0714",
+      "rank_categoria": "2",
+      "dense_categoria": "2"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Office Supplies",
+      "product_id": "OFF-AP-10002945",
+      "ventas": "11304.4400",
+      "ganancia": "3247.0200",
+      "margen_pct": "28.7234",
+      "rank_categoria": "3",
+      "dense_categoria": "3"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Office Supplies",
+      "product_id": "OFF-BI-10003925",
+      "ventas": "8070.1920",
+      "ganancia": "2518.0551",
+      "margen_pct": "31.2019",
+      "rank_categoria": "4",
+      "dense_categoria": "4"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Office Supplies",
+      "product_id": "OFF-BI-10004600",
+      "ventas": "7985.3830",
+      "ganancia": "2318.3370",
+      "margen_pct": "29.0323",
+      "rank_categoria": "5",
+      "dense_categoria": "5"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Technology",
+      "product_id": "TEC-CO-10004722",
+      "ventas": "61599.8240",
+      "ganancia": "25199.9280",
+      "margen_pct": "40.9091",
+      "rank_categoria": "1",
+      "dense_categoria": "1"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Technology",
+      "product_id": "TEC-CO-10001449",
+      "ventas": "18839.6860",
+      "ganancia": "6983.8836",
+      "margen_pct": "37.0701",
+      "rank_categoria": "2",
+      "dense_categoria": "2"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Technology",
+      "product_id": "TEC-CO-10003763",
+      "ventas": "11619.8340",
+      "ganancia": "4570.9347",
+      "margen_pct": "39.3373",
+      "rank_categoria": "3",
+      "dense_categoria": "3"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Technology",
+      "product_id": "TEC-AC-10002049",
+      "ventas": "13756.5360",
+      "ganancia": "4425.3432",
+      "margen_pct": "32.1690",
+      "rank_categoria": "4",
+      "dense_categoria": "4"
+    },
+    {
+      "listado": "Top ganancia categoria",
+      "category": "Technology",
+      "product_id": "TEC-MA-10001127",
+      "ventas": "18374.8950",
+      "ganancia": "4094.9766",
+      "margen_pct": "22.2857",
+      "rank_categoria": "5",
+      "dense_categoria": "5"
+    },
+    {
+      "listado": "Top ventas",
+      "category": "Technology",
+      "product_id": "TEC-CO-10004722",
+      "ventas": "61599.8240",
+      "ganancia": "25199.9280",
+      "margen_pct": "40.9091",
+      "rank_categoria": "1",
+      "dense_categoria": "1"
+    },
+    {
+      "listado": "Top ventas",
+      "category": "Office Supplies",
+      "product_id": "OFF-BI-10003527",
+      "ventas": "27453.3840",
+      "ganancia": "7753.0390",
+      "margen_pct": "28.2407",
+      "rank_categoria": "1",
+      "dense_categoria": "1"
+    },
+    {
+      "listado": "Top ventas",
+      "category": "Technology",
+      "product_id": "TEC-MA-10002412",
+      "ventas": "22638.4800",
+      "ganancia": "-1811.0784",
+      "margen_pct": "-8.0000",
+      "rank_categoria": "401",
+      "dense_categoria": "401"
+    },
+    {
+      "listado": "Top ventas",
+      "category": "Furniture",
+      "product_id": "FUR-CH-10002024",
+      "ventas": "21870.5760",
+      "ganancia": "0.0000",
+      "margen_pct": "0.0000",
+      "rank_categoria": "253",
+      "dense_categoria": "253"
+    },
+    {
+      "listado": "Top ventas",
+      "category": "Office Supplies",
+      "product_id": "OFF-BI-10001359",
+      "ventas": "19823.4790",
+      "ganancia": "2233.5051",
+      "margen_pct": "11.2670",
+      "rank_categoria": "6",
+      "dense_categoria": "6"
+    },
+    {
+      "listado": "Peor margen",
+      "category": "Office Supplies",
+      "product_id": "OFF-AP-10002203",
+      "ventas": "1.6240",
+      "ganancia": "-4.4660",
+      "margen_pct": "-275.0000",
+      "rank_categoria": "985",
+      "dense_categoria": "975"
+    },
+    {
+      "listado": "Peor margen",
+      "category": "Furniture",
+      "product_id": "FUR-BO-10001567",
+      "ventas": "90.8820",
+      "ganancia": "-190.8522",
+      "margen_pct": "-210.0000",
+      "rank_categoria": "318",
+      "dense_categoria": "317"
+    },
+    {
+      "listado": "Peor margen",
+      "category": "Office Supplies",
+      "product_id": "OFF-AP-10000390",
+      "ventas": "170.7440",
+      "ganancia": "-325.6332",
+      "margen_pct": "-190.7143",
+      "rank_categoria": "1073",
+      "dense_categoria": "1063"
+    },
+    {
+      "listado": "Peor margen",
+      "category": "Technology",
+      "product_id": "TEC-MA-10003337",
+      "ventas": "179.9910",
+      "ganancia": "-251.9874",
+      "margen_pct": "-140.0000",
+      "rank_categoria": "389",
+      "dense_categoria": "389"
+    },
+    {
+      "listado": "Peor margen",
+      "category": "Technology",
+      "product_id": "TEC-MA-10001695",
+      "ventas": "703.7100",
+      "ganancia": "-938.2800",
+      "margen_pct": "-133.3333",
+      "rank_categoria": "399",
+      "dense_categoria": "399"
+    },
+    {
+      "listado": "Peor ganancia",
+      "category": "Technology",
+      "product_id": "TEC-MA-10000418",
+      "ventas": "11099.9630",
+      "ganancia": "-8879.9704",
+      "margen_pct": "-80.0000",
+      "rank_categoria": "404",
+      "dense_categoria": "404"
+    },
+    {
+      "listado": "Peor ganancia",
+      "category": "Technology",
+      "product_id": "TEC-MA-10000822",
+      "ventas": "16829.9010",
+      "ganancia": "-4589.9730",
+      "margen_pct": "-27.2727",
+      "rank_categoria": "403",
+      "dense_categoria": "403"
+    },
+    {
+      "listado": "Peor ganancia",
+      "category": "Technology",
+      "product_id": "TEC-MA-10004125",
+      "ventas": "7999.9800",
+      "ganancia": "-3839.9904",
+      "margen_pct": "-48.0000",
+      "rank_categoria": "402",
+      "dense_categoria": "402"
+    },
+    {
+      "listado": "Peor ganancia",
+      "category": "Furniture",
+      "product_id": "FUR-TA-10000198",
+      "ventas": "9917.6400",
+      "ganancia": "-2876.1156",
+      "margen_pct": "-29.0000",
+      "rank_categoria": "375",
+      "dense_categoria": "374"
+    },
+    {
+      "listado": "Peor ganancia",
+      "category": "Furniture",
+      "product_id": "FUR-TA-10001889",
+      "ventas": "9544.7250",
+      "ganancia": "-1934.3976",
+      "margen_pct": "-20.2667",
+      "rank_categoria": "374",
+      "dense_categoria": "373"
+    }
+  ],
+  "discounts": [
+    {
+      "banda": "Sin descuento",
+      "n": "4798",
+      "ventas": "1087908.4700",
+      "ganancia": "320987.6032",
+      "margen_pct": "29.5050",
+      "perdidas": "0",
+      "no_rentables": "30",
+      "pct_perdidas": "0.0000",
+      "pct_no_rentables": "0.6253",
+      "desc_prom": "0.0000"
+    },
+    {
+      "banda": "Bajo",
+      "n": "3803",
+      "ventas": "846522.2405",
+      "ganancia": "100785.4745",
+      "margen_pct": "11.9058",
+      "perdidas": "523",
+      "no_rentables": "545",
+      "pct_perdidas": "13.7523",
+      "pct_no_rentables": "14.3308",
+      "desc_prom": "0.1968"
+    },
+    {
+      "banda": "Medio",
+      "n": "537",
+      "ventas": "298541.4118",
+      "ganancia": "-58817.0047",
+      "margen_pct": "-19.7015",
+      "perdidas": "492",
+      "no_rentables": "505",
+      "pct_perdidas": "91.6201",
+      "pct_no_rentables": "94.0410",
+      "desc_prom": "0.3670"
+    },
+    {
+      "banda": "Alto",
+      "n": "856",
+      "ventas": "64228.7380",
+      "ganancia": "-76559.0513",
+      "margen_pct": "-119.1975",
+      "perdidas": "856",
+      "no_rentables": "856",
+      "pct_perdidas": "100.0000",
+      "pct_no_rentables": "100.0000",
+      "desc_prom": "0.7189"
+    }
+  ],
+  "top_units": [
+    {
+      "posicion": "1",
+      "category": "Technology",
+      "product_id": "TEC-AC-10003832",
+      "product_name": "Imation 16GB Mini TravelDrive USB 2.0 Flash Drive",
+      "unidades": "75",
+      "ventas": "11203.7560",
+      "ganancia": "1987.9253"
+    },
+    {
+      "posicion": "2",
+      "category": "Office Supplies",
+      "product_id": "OFF-PA-10001970",
+      "product_name": "Xerox 1881",
+      "unidades": "70",
+      "ventas": "2167.3480",
+      "ganancia": "1006.4352"
+    },
+    {
+      "posicion": "3",
+      "category": "Office Supplies",
+      "product_id": "OFF-BI-10001524",
+      "product_name": "GBC Premium Transparent Covers with Diagonal Lined Pattern",
+      "unidades": "67",
+      "ventas": "780.4560",
+      "ganancia": "49.5128"
+    },
+    {
+      "posicion": "4",
+      "category": "Furniture",
+      "product_id": "FUR-CH-10002647",
+      "product_name": "Situations Contoured Folding Chairs, 4/Set",
+      "unidades": "64",
+      "ventas": "3641.2740",
+      "ganancia": "234.2340"
+    },
+    {
+      "posicion": "5",
+      "category": "Office Supplies",
+      "product_id": "OFF-BI-10002026",
+      "product_name": "Avery Arch Ring Binders",
+      "unidades": "64",
+      "ventas": "2068.8220",
+      "ganancia": "349.6332"
+    }
+  ],
+  "most_affected_subcategories": [
+    {
+      "banda": "Alto",
+      "category": "Office Supplies",
+      "sub_category": "Binders",
+      "n": "613",
+      "ventas": "36140.6130",
+      "ganancia": "-38510.4964",
+      "perdidas": "613",
+      "perdida_bruta": "38510.4964",
+      "pct_no_rentables": "100.0000",
+      "margen_pct": "-106.5574",
+      "rk_afectacion": "1"
+    },
+    {
+      "banda": "Medio",
+      "category": "Furniture",
+      "sub_category": "Tables",
+      "n": "176",
+      "ventas": "89956.5400",
+      "ganancia": "-30698.2228",
+      "perdidas": "172",
+      "perdida_bruta": "30761.1238",
+      "pct_no_rentables": "98.8636",
+      "margen_pct": "-34.1256",
+      "rk_afectacion": "1"
+    },
+    {
+      "banda": "Alto",
+      "category": "Technology",
+      "sub_category": "Machines",
+      "n": "23",
+      "ventas": "15601.5090",
+      "ganancia": "-19579.3191",
+      "perdidas": "23",
+      "perdida_bruta": "19579.3191",
+      "pct_no_rentables": "100.0000",
+      "margen_pct": "-125.4963",
+      "rk_afectacion": "2"
+    },
+    {
+      "banda": "Medio",
+      "category": "Technology",
+      "sub_category": "Machines",
+      "n": "30",
+      "ventas": "61237.5990",
+      "ganancia": "-9976.0330",
+      "perdidas": "21",
+      "perdida_bruta": "10539.3491",
+      "pct_no_rentables": "70.0000",
+      "margen_pct": "-16.2907",
+      "rk_afectacion": "2"
+    },
+    {
+      "banda": "Alto",
+      "category": "Office Supplies",
+      "sub_category": "Appliances",
+      "n": "67",
+      "ventas": "3382.5340",
+      "ganancia": "-8629.6412",
+      "perdidas": "67",
+      "perdida_bruta": "8629.6412",
+      "pct_no_rentables": "100.0000",
+      "margen_pct": "-255.1236",
+      "rk_afectacion": "3"
+    }
+  ],
+  "monthly_count": 48,
+  "month_extremes": [
+    {
+      "mes": "2017-11-01",
+      "ventas": "118447.8250",
+      "ganancia": "9690.1037",
+      "var_mes_pct": "52.2917",
+      "var_anio_pct": "49.1561",
+      "var_gan_mes_pct": "4.4724",
+      "var_gan_anio_pct": "141.5637",
+      "mm3_ventas": "94697.1334",
+      "mm3_ganancia": "9985.6449",
+      "rk_mayor": "1",
+      "rk_menor": "48"
+    },
+    {
+      "mes": "2016-12-01",
+      "ventas": "96999.0430",
+      "ganancia": "17885.3093",
+      "var_mes_pct": "22.1466",
+      "var_anio_pct": "29.4710",
+      "var_gan_mes_pct": "345.8612",
+      "var_gan_anio_pct": "123.0932",
+      "mm3_ventas": "78699.5846",
+      "mm3_ganancia": "12713.2864",
+      "rk_mayor": "2",
+      "rk_menor": "47"
+    },
+    {
+      "mes": "2017-09-01",
+      "ventas": "87866.6520",
+      "ganancia": "10991.5556",
+      "var_mes_pct": "39.2038",
+      "var_anio_pct": "19.6930",
+      "var_gan_mes_pct": "21.5752",
+      "var_gan_anio_pct": "17.8257",
+      "mm3_ventas": "65417.3187",
+      "mm3_ganancia": "8995.0442",
+      "rk_mayor": "3",
+      "rk_menor": "46"
+    },
+    {
+      "mes": "2014-01-01",
+      "ventas": "14236.8950",
+      "ganancia": "2450.1907",
+      "var_mes_pct": "NULL",
+      "var_anio_pct": "NULL",
+      "var_gan_mes_pct": "NULL",
+      "var_gan_anio_pct": "NULL",
+      "mm3_ventas": "NULL",
+      "mm3_ganancia": "NULL",
+      "rk_mayor": "46",
+      "rk_menor": "3"
+    },
+    {
+      "mes": "2015-02-01",
+      "ventas": "11951.4110",
+      "ganancia": "2813.8508",
+      "var_mes_pct": "-34.2392",
+      "var_anio_pct": "164.4181",
+      "var_gan_mes_pct": "185.7618",
+      "var_gan_anio_pct": "226.3161",
+      "mm3_ventas": "33223.7024",
+      "mm3_ganancia": "2838.8046",
+      "rk_mayor": "47",
+      "rk_menor": "2"
+    },
+    {
+      "mes": "2014-02-01",
+      "ventas": "4519.8920",
+      "ganancia": "862.3084",
+      "var_mes_pct": "-68.2523",
+      "var_anio_pct": "NULL",
+      "var_gan_mes_pct": "-64.8065",
+      "var_gan_anio_pct": "NULL",
+      "mm3_ventas": "NULL",
+      "mm3_ganancia": "NULL",
+      "rk_mayor": "48",
+      "rk_menor": "1"
+    }
+  ],
+  "pareto": {
+    "ventas": {
+      "analisis": "ventas",
+      "productos": "1862",
+      "total": "2297200.8603",
+      "productos_80": "414",
+      "pct_productos": "22.2342",
+      "aporte_80": "1838610.1352",
+      "pct_alcanzado": "80.0370",
+      "productos_negativos": "0"
+    },
+    "ganancia_neta": {
+      "analisis": "ganancia_neta",
+      "productos": "1862",
+      "total": "286397.0217",
+      "productos_80": "164",
+      "pct_productos": "8.8077",
+      "aporte_80": "229204.3855",
+      "pct_alcanzado": "80.0303",
+      "productos_negativos": "299"
+    }
+  }
+}

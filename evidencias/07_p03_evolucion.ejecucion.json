@@ -1,0 +1,12 @@
+{
+  "executed_at_utc": "2026-11-11T17:18:30.258933+00:00",
+  "sql_file": "scripts/07_p03_evolucion.sql",
+  "sql_sha256": "427cf306142574d8be4f767d59e0ce3141f27960f4c7abe11f62892aae6bb4e1",
+  "output_file": "evidencias/07_p03_evolucion.tsv",
+  "output_sha256": "37e438cd3c9f897c4e3e5c3b90a069ad0bacc89809326f77542ad4ae6afe3e76",
+  "exit_code": 0,
+  "elapsed_seconds": 10.226707408999573,
+  "log_file": "evidencias/07_p03_evolucion.txt",
+  "database": "superstore_alexander_2mom",
+  "database_modified": false
+}

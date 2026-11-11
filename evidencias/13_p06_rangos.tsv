@@ -1,0 +1,5 @@
+resultado.banda	resultado.n	resultado.ventas	resultado.ganancia	resultado.margen_pct	resultado.perdidas	resultado.no_rentables	resultado.pct_perdidas	resultado.pct_no_rentables	resultado.desc_prom
+Sin descuento	4798	1087908.4700	320987.6032	29.5050	0	30	0.0000	0.6253	0.0000
+Bajo	3803	846522.2405	100785.4745	11.9058	523	545	13.7523	14.3308	0.1968
+Medio	537	298541.4118	-58817.0047	-19.7015	492	505	91.6201	94.0410	0.3670
+Alto	856	64228.7380	-76559.0513	-119.1975	856	856	100.0000	100.0000	0.7189

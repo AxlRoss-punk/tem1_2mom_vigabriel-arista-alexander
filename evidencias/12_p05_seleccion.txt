@@ -1,0 +1,78 @@
+$ docker compose exec -T hive-server beeline -u jdbc:hive2://localhost:10000/default --silent=true --showHeader=true --outputformat=tsv2 --force=false -f /dev/stdin
+SQL: 12_p05_seleccion.sql
+SQL SHA-256: 35cf3eb24ec719e92072650ca8f30958aa02a419ff567f51761a2a5eb9efcd07
+listado	category	product_id	ventas	ganancia	margen_pct	rank_categoria	dense_categoria
+Top ganancia categoria	Furniture	FUR-CH-10000454	10637.5280	1927.4420	18.1193	1	1
+Top ganancia categoria	Furniture	FUR-CH-10004063	8665.1940	1558.5910	17.9868	2	2
+Top ganancia categoria	Furniture	FUR-CH-10002320	6483.7960	1540.7040	23.7624	3	3
+Top ganancia categoria	Furniture	FUR-CH-10004086	8430.9970	1388.6348	16.4706	4	4
+Top ganancia categoria	Furniture	FUR-CH-10001854	8774.5000	1305.6456	14.8800	5	5
+Top ganancia categoria	Office Supplies	OFF-BI-10003527	27453.3840	7753.0390	28.2407	1	1
+Top ganancia categoria	Office Supplies	OFF-BI-10001120	15875.9160	3345.2823	21.0714	2	2
+Top ganancia categoria	Office Supplies	OFF-AP-10002945	11304.4400	3247.0200	28.7234	3	3
+Top ganancia categoria	Office Supplies	OFF-BI-10003925	8070.1920	2518.0551	31.2019	4	4
+Top ganancia categoria	Office Supplies	OFF-BI-10004600	7985.3830	2318.3370	29.0323	5	5
+Top ganancia categoria	Technology	TEC-CO-10004722	61599.8240	25199.9280	40.9091	1	1
+Top ganancia categoria	Technology	TEC-CO-10001449	18839.6860	6983.8836	37.0701	2	2
+Top ganancia categoria	Technology	TEC-CO-10003763	11619.8340	4570.9347	39.3373	3	3
+Top ganancia categoria	Technology	TEC-AC-10002049	13756.5360	4425.3432	32.1690	4	4
+Top ganancia categoria	Technology	TEC-MA-10001127	18374.8950	4094.9766	22.2857	5	5
+Top ventas	Technology	TEC-CO-10004722	61599.8240	25199.9280	40.9091	1	1
+Top ventas	Office Supplies	OFF-BI-10003527	27453.3840	7753.0390	28.2407	1	1
+Top ventas	Technology	TEC-MA-10002412	22638.4800	-1811.0784	-8.0000	401	401
+Top ventas	Furniture	FUR-CH-10002024	21870.5760	0.0000	0.0000	253	253
+Top ventas	Office Supplies	OFF-BI-10001359	19823.4790	2233.5051	11.2670	6	6
+Peor margen	Office Supplies	OFF-AP-10002203	1.6240	-4.4660	-275.0000	985	975
+Peor margen	Furniture	FUR-BO-10001567	90.8820	-190.8522	-210.0000	318	317
+Peor margen	Office Supplies	OFF-AP-10000390	170.7440	-325.6332	-190.7143	1073	1063
+Peor margen	Technology	TEC-MA-10003337	179.9910	-251.9874	-140.0000	389	389
+Peor margen	Technology	TEC-MA-10001695	703.7100	-938.2800	-133.3333	399	399
+Peor ganancia	Technology	TEC-MA-10000418	11099.9630	-8879.9704	-80.0000	404	404
+Peor ganancia	Technology	TEC-MA-10000822	16829.9010	-4589.9730	-27.2727	403	403
+Peor ganancia	Technology	TEC-MA-10004125	7999.9800	-3839.9904	-48.0000	402	402
+Peor ganancia	Furniture	FUR-TA-10000198	9917.6400	-2876.1156	-29.0000	375	374
+Peor ganancia	Furniture	FUR-TA-10001889	9544.7250	-1934.3976	-20.2667	374	373
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[WARN] Failed to create directory: /home/hive/.beeline
+No such file or directory
+
+[exit_code=0; elapsed_seconds=10.445356]

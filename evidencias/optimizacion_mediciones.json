@@ -1,0 +1,64 @@
+{
+  "measured_at_utc": "2026-11-11T17:26:55.756093+00:00",
+  "measurements": [
+    {
+      "storage": "csv",
+      "warmup": true,
+      "wall_seconds": 7.225154742000086,
+      "rows": 16,
+      "results_match": true
+    },
+    {
+      "storage": "orc",
+      "warmup": true,
+      "wall_seconds": 6.748212925998814,
+      "rows": 16,
+      "results_match": true
+    },
+    {
+      "storage": "csv",
+      "warmup": false,
+      "wall_seconds": 6.667319853999288,
+      "rows": 16,
+      "results_match": true
+    },
+    {
+      "storage": "orc",
+      "warmup": false,
+      "wall_seconds": 6.082557908999661,
+      "rows": 16,
+      "results_match": true
+    },
+    {
+      "storage": "orc",
+      "warmup": false,
+      "wall_seconds": 5.387834025999837,
+      "rows": 16,
+      "results_match": true
+    },
+    {
+      "storage": "csv",
+      "warmup": false,
+      "wall_seconds": 6.616338788999201,
+      "rows": 16,
+      "results_match": true
+    }
+  ],
+  "median_wall_seconds": {
+    "csv": 6.6418293214992445,
+    "orc": 5.735195967499749
+  },
+  "logical_hdfs_bytes": {
+    "csv": 2288516,
+    "orc": 354612
+  },
+  "space_reduction_pct": 84.50471834149292,
+  "sql_sha256": {
+    "csv": "3cee1691aa2679121313025761c9bee1cfa4343538edcc49797b6fb50a3dea51",
+    "orc": "4639a45dec1e18acd53ff75c7d66673e99f1666ab44edb6f856c9eff31cd3ef7"
+  },
+  "all_results_equal": true,
+  "data_modified": false,
+  "timing_scope": "Tiempo de pared: cliente Docker/Beeline, conexion y consulta; dos repeticiones medidas por formato, después de un calentamiento. Sin consultas simultaneas de este ejecutor.",
+  "limitations": "Dataset pequeno; cache y arranque del cliente influyen. Las mediciones no demuestran una ventaja universal."
+}

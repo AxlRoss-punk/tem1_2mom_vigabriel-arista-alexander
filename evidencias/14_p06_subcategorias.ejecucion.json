@@ -1,0 +1,12 @@
+{
+  "executed_at_utc": "2026-11-11T17:18:57.558820+00:00",
+  "sql_file": "scripts/14_p06_subcategorias.sql",
+  "sql_sha256": "1246fe91ba9b84a7110f0cabd714ece301035160ae7d528ddb7dd07588be192e",
+  "output_file": "evidencias/14_p06_subcategorias.tsv",
+  "output_sha256": "434d182d2f6feaa55674e2e669a65485401cc7287ec586e67c2e9f1ad6f7d560",
+  "exit_code": 0,
+  "elapsed_seconds": 6.711288574000719,
+  "log_file": "evidencias/14_p06_subcategorias.txt",
+  "database": "superstore_alexander_2mom",
+  "database_modified": false
+}

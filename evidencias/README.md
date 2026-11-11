@@ -20,6 +20,17 @@
   dimensiones, horas UTC y código de salida 0.
 - No guardar tokens, contraseñas ni archivos de configuración privados.
 
+- `07_*` a `18_*` y `21_*`: resultados TSV reales de las preguntas 3 a 8,
+  sus registros TXT y procedencia `.ejecucion.json` con hashes y código 0.
+- `analitica_verificacion.json`: comprobación final independiente de los
+  resultados con el CSV. El informe inicial se conserva por separado.
+- `p03_evolucion.png` y su `.captura.json`: captura real e inspeccionada de P3.
+- `optimizacion_*`: mediciones de tiempos, tamaños y planes reales CSV/ORC.
+- `intento_inicial_p07/`: intento descartado, claramente separado del resultado
+  final correcto de 48 meses.
+- Las capturas PNG de P4 a P8 están pendientes; los TSV y registros de esas
+  preguntas sí proceden de ejecuciones verificadas.
+
 La preparación no requiere capturas individuales. Las capturas se obtienen de
 ejecuciones reales; las automatizadas se identifican mediante su registro de
 procedencia. Los estados pendientes de los registros históricos corresponden

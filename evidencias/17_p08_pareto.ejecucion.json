@@ -1,0 +1,12 @@
+{
+  "executed_at_utc": "2026-11-11T17:19:11.774751+00:00",
+  "sql_file": "scripts/17_p08_pareto.sql",
+  "sql_sha256": "b1d423a76c2e337f67fa15099e47ab6e4c26a4765540fac8372d371885354776",
+  "output_file": "evidencias/17_p08_pareto.tsv",
+  "output_sha256": "467587cb479d3d6bfcaeb385a5ddc34fbbf9073a61740cf450efdcaddcd2e0cf",
+  "exit_code": 0,
+  "elapsed_seconds": 9.236635671999466,
+  "log_file": "evidencias/17_p08_pareto.txt",
+  "database": "superstore_alexander_2mom",
+  "database_modified": false
+}

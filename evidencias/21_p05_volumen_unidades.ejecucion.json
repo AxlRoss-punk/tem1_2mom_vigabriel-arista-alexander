@@ -1,0 +1,12 @@
+{
+  "executed_at_utc": "2026-11-11T17:28:41.682655+00:00",
+  "sql_file": "scripts/21_p05_volumen_unidades.sql",
+  "sql_sha256": "dbbc32356d0cdcd6dae1c97c293ffa9e9e40df886a792ebf8dca2140f06d7733",
+  "output_file": "evidencias/21_p05_volumen_unidades.tsv",
+  "output_sha256": "99d4578c5e926720e50e744db5a56842328c39f196470c7e30f57d334de44b5a",
+  "exit_code": 0,
+  "elapsed_seconds": 7.189389179999125,
+  "log_file": "evidencias/21_p05_volumen_unidades.txt",
+  "database": "superstore_alexander_2mom",
+  "database_modified": false
+}

@@ -1,0 +1,35 @@
+$ docker compose exec -T hive-server beeline -u jdbc:hive2://localhost:10000/default --silent=true --showHeader=true --outputformat=tsv2 --force=false -f /dev/stdin
+SQL: 21_p05_volumen_unidades.sql
+SQL SHA-256: dbbc32356d0cdcd6dae1c97c293ffa9e9e40df886a792ebf8dca2140f06d7733
+posicion	category	product_id	product_name	unidades	ventas	ganancia
+1	Technology	TEC-AC-10003832	Imation 16GB Mini TravelDrive USB 2.0 Flash Drive	75	11203.7560	1987.9253
+2	Office Supplies	OFF-PA-10001970	Xerox 1881	70	2167.3480	1006.4352
+3	Office Supplies	OFF-BI-10001524	GBC Premium Transparent Covers with Diagonal Lined Pattern	67	780.4560	49.5128
+4	Furniture	FUR-CH-10002647	Situations Contoured Folding Chairs, 4/Set	64	3641.2740	234.2340
+5	Office Supplies	OFF-BI-10002026	Avery Arch Ring Binders	64	2068.8220	349.6332
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+
+
+
+
+
+
+
+
+
+
+
+
+[WARN] Failed to create directory: /home/hive/.beeline
+No such file or directory
+
+[exit_code=0; elapsed_seconds=7.189389]

@@ -1,0 +1,13 @@
+{
+    "captured_at_utc":  "2026-11-11T17:28:47.0487939Z",
+    "capture_method":  "Captura de pixeles de la ventana de Windows Terminal que ejecuto Beeline",
+    "sql_file":  "scripts/p03_captura.sql",
+    "sql_sha256":  "e021bf670939eb9d3cbfe58de9062bc6fcac9ed502ad298078d3fb2e8fd1e8c4",
+    "native_exit_code":  0,
+    "query_finished_at_utc":  "2026-11-11T17:28:45.7900154Z",
+    "png_file":  "evidencias/p03_evolucion.png",
+    "png_sha256":  "20302ff279cec7e6240a280806e59b0120540a745fb26e4965e3bdbbb07c800b",
+    "width":  2560,
+    "height":  1504,
+    "image_content_edited":  false
+}

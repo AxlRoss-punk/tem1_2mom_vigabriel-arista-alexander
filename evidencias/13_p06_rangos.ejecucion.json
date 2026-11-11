@@ -1,0 +1,12 @@
+{
+  "executed_at_utc": "2026-11-11T17:18:52.588814+00:00",
+  "sql_file": "scripts/13_p06_rangos.sql",
+  "sql_sha256": "3743daa1ef06f8ce3a0627c052d587178b12cb7363b5e8d6420256073addfce6",
+  "output_file": "evidencias/13_p06_rangos.tsv",
+  "output_sha256": "896b5060435c1fc2e627544fdbf4b242c8c38b269e280dc5649d7f760b9f8c9b",
+  "exit_code": 0,
+  "elapsed_seconds": 6.487493802000245,
+  "log_file": "evidencias/13_p06_rangos.txt",
+  "database": "superstore_alexander_2mom",
+  "database_modified": false
+}

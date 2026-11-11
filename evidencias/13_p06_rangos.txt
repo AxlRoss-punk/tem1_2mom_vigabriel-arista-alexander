@@ -1,0 +1,41 @@
+$ docker compose exec -T hive-server beeline -u jdbc:hive2://localhost:10000/default --silent=true --showHeader=true --outputformat=tsv2 --force=false -f /dev/stdin
+SQL: 13_p06_rangos.sql
+SQL SHA-256: 3743daa1ef06f8ce3a0627c052d587178b12cb7363b5e8d6420256073addfce6
+resultado.banda	resultado.n	resultado.ventas	resultado.ganancia	resultado.margen_pct	resultado.perdidas	resultado.no_rentables	resultado.pct_perdidas	resultado.pct_no_rentables	resultado.desc_prom
+Sin descuento	4798	1087908.4700	320987.6032	29.5050	0	30	0.0000	0.6253	0.0000
+Bajo	3803	846522.2405	100785.4745	11.9058	523	545	13.7523	14.3308	0.1968
+Medio	537	298541.4118	-58817.0047	-19.7015	492	505	91.6201	94.0410	0.3670
+Alto	856	64228.7380	-76559.0513	-119.1975	856	856	100.0000	100.0000	0.7189
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.18.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[WARN] Failed to create directory: /home/hive/.beeline
+No such file or directory
+
+[exit_code=0; elapsed_seconds=6.487494]
