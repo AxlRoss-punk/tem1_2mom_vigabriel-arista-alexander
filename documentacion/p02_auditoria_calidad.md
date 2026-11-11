@@ -9,6 +9,21 @@ esperado y envíos anteriores al pedido. Exige una consulta de resumen y
 criterios de tratamiento de las inconsistencias. Fuente: páginas 1 y 2 de
 `EXAMEN PRACTICO vF.pdf`.
 
+## Cobertura de los requisitos del PDF
+
+| Requisito de la pregunta 2 | Comprobación ejecutada | Resultado |
+|---|---|---|
+| Cantidad total de registros | Conteos independientes de origen y tabla analítica en `04_p02_resumen.sql` | 9.994 en ambas capas |
+| Identificadores de fila duplicados | Agrupación por `row_id`, grupos repetidos y filas adicionales | 0 grupos; 0 filas adicionales |
+| Órdenes y clientes únicos | `COUNT(DISTINCT order_id)` y `COUNT(DISTINCT customer_id)` | 5.009 órdenes; 793 clientes |
+| Campos con NULL | Conteos por las 21 columnas en `05_p02_nulls.sql` y total en el resumen | 0 en cada columna |
+| Fechas inválidas o inconsistentes | Reconversión de fechas originales, fechas nulas finales y comparación pedido/envío | 0 incidencias |
+| Ventas iguales o inferiores a cero | Condición `sales <= 0` | 0 registros |
+| Descuentos fuera del intervalo esperado | Condición `discount < 0 OR discount > 1` | 0 registros |
+| Envío anterior al pedido | Condición `ship_date < order_date` | 0 registros |
+| Consulta de resumen de calidad | `04_p02_resumen.sql`, ejecutado mediante Beeline | 20 indicadores reales |
+| Criterios de tratamiento | Tabla de criterios incluida en este documento | Propuestas documentadas; sin alterar datos |
+
 ## Estrategia y reglas
 
 La auditoría utiliza únicamente consultas sobre `superstore_alexander_2mom`.
@@ -155,3 +170,22 @@ Se avanzó con esta auditoría de lectura tras la indicación del estudiante de
 continuar. Durante el trabajo se recibió y verificó la captura de la pregunta
 1, incorporada como `evidencias/p01_modelo_carga.png`. La captura de la pregunta
 2 continúa pendiente.
+
+## Revalidación tras confirmar la evidencia de la pregunta 1
+
+El 11 de noviembre de 2026 se comprobó que
+`evidencias/p01_modelo_carga.png` existe y conserva el SHA-256 de la captura
+ya inspeccionada. También se comprobó que el PDF original conserva el hash de
+la versión revisada.
+
+Se volvieron a ejecutar en Hive los tres scripts de auditoría. Todas las
+consultas terminaron con código 0; las salidas coincidieron byte por byte con
+los TSV anteriores. Los 20 indicadores y los conteos NULL de las 21 columnas
+volvieron a coincidir con la lectura independiente del CSV original. No se
+modificaron tablas ni se sobrescribieron los registros de la primera auditoría.
+
+- [Registro de la revalidación](../evidencias/p02_revalidacion.txt).
+- [Resultado y comparaciones](../evidencias/p02_revalidacion.json).
+
+La evidencia pendiente corresponde únicamente a la captura del estudiante de
+la pregunta 2, prevista como `evidencias/p02_auditoria_calidad.png`.
