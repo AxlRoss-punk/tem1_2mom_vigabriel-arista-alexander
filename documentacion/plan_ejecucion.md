@@ -79,6 +79,9 @@ obtuvo automáticamente de una ventana real de ejecución y también se verific�
 - Pregunta 2: auditoría ejecutada y contrastada con el CSV. Se verificaron
   5.009 órdenes y 793 clientes, sin incumplimientos en los controles requeridos.
   Captura de la ejecución real obtenida con autorización e inspeccionada.
-- Preguntas 3 a 8: pendientes; no se generaron resultados anticipados.
+- Preguntas 3 a 8: consultas ejecutadas, contrastadas con el CSV y documentadas;
+  61.428 comprobaciones satisfactorias. P3 tiene captura; faltan PNG de P4 a P8.
+- Optimización medida y conclusiones técnicas incorporadas; revisión final
+  del estudiante pendiente.
 - Ante la proximidad de entrega se detuvo el desarrollo adicional y se
   priorizó publicar el trabajo comprobado; véase `estado_entrega.md`.

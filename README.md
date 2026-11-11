@@ -21,6 +21,9 @@ existente está en `/home/dante/LI16_Apache_Hive/docker-hadoop-hive-parquet`.
 - [Diccionario de datos](documentacion/diccionario_datos.md).
 - [Pregunta 1: modelo, carga y resultados verificados](documentacion/p01_modelo_carga.md).
 - [Pregunta 2: auditoría de calidad y resultados verificados](documentacion/p02_auditoria_calidad.md).
+- [Preguntas 3 a 8: consultas, resultados e interpretación](documentacion/p03_p08_resultados.md).
+- [Optimización medida](documentacion/optimizacion.md).
+- [Conclusiones técnicas](documentacion/conclusiones.md).
 - [Estado de entrega: trabajo verificado y preguntas pendientes](documentacion/estado_entrega.md).
 - [Evidencias](evidencias/README.md).
 
@@ -50,7 +53,20 @@ valores. La pregunta 2 tiene la auditoría ejecutada y contrastada: 5.009 órden
 únicas, 793 clientes y cero incumplimientos en los controles requeridos.
 Las capturas de las preguntas 1 y 2 están incorporadas y verificadas. La
 segunda se capturó automáticamente de la ventana de una ejecución real de
-Beeline, con autorización del estudiante. Las preguntas 3 a 8 están pendientes.
+Beeline, con autorización del estudiante. Las consultas de las preguntas 3 a 8
+están ejecutadas y contrastadas mediante 61.428 comprobaciones independientes.
+La pregunta 3 tiene captura; las capturas de las preguntas 4 a 8 siguen
+pendientes, al igual que la revisión final del estudiante. La medición de
+optimización y las conclusiones técnicas están documentadas.
+
+Para verificar o reanudar las ejecuciones analíticas sin sobrescribir resultados:
+
+```powershell
+wsl -d Ubuntu -- python3 -B scripts/ejecutar_analitica.py --bloque todos
+```
+
+El informe ya generado es `evidencias/analitica_verificacion.json`. Las
+mediciones reales de CSV frente a ORC están en `evidencias/optimizacion_mediciones.json`.
 
 Para mostrar los conteos reales en una tabla y tomar la captura:
 
