@@ -1,0 +1,10 @@
+/datos/
+__pycache__/
+*.py[cod]
+.venv/
+*.tmp
+.env
+.env.*
+!.env.example
+*.pem
+*.key
