@@ -62,3 +62,12 @@ Las capturas se solicitarán al estudiante en el momento de la ejecución y no
 se presentará un registro textual como sustituto de una captura. No hace falta
 capturar todos los comandos de preparación. Antes de continuar tras una
 solicitud de captura se esperará la confirmación de que fue guardada.
+
+## Avance comprobado
+
+- Preparación completada: copia UTF-8 válida, original intacto e igualdad de
+  todos los campos. Commit `d2f184e` publicado y comprobado en GitHub.
+- Pregunta 1: base independiente y tablas cargadas con 9.994 filas cada una;
+  209.874 valores comparados satisfactoriamente. Captura del estudiante
+  pendiente antes de cerrar la pregunta y continuar.
+- Preguntas 2 a 8: pendientes; no se generaron resultados anticipados.

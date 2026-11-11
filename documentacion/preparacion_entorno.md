@@ -2,6 +2,12 @@
 
 Fecha: 11 de noviembre de 2026 (America/Caracas).
 
+Este es el registro histórico de la intervención previa. Se incorporó al
+repositorio en el hito `d2f184e`. El avance posterior, la autorización académica
+confirmada por el estudiante y la carga real se documentan en
+`plan_ejecucion.md` y `p01_modelo_carga.md`; los estados iniciales descritos
+abajo corresponden a la intervención anterior.
+
 Alcance: autenticación de GitHub, comprobación de la estructura local y
 planificación de la ingesta de Sample Superstore. Este documento registra
 asistencia técnica de Codex; no contiene respuestas ni consultas de las

@@ -18,6 +18,8 @@ existente está en `/home/dante/LI16_Apache_Hive/docker-hadoop-hive-parquet`.
 - [Inspección inicial](documentacion/analisis_dataset.md).
 - [Registro previo de preparación y GitHub](documentacion/preparacion_entorno.md).
 - [Plan por bloques y declaración de uso de IA](documentacion/plan_ejecucion.md).
+- [Diccionario de datos](documentacion/diccionario_datos.md).
+- [Pregunta 1: modelo, carga y resultados verificados](documentacion/p01_modelo_carga.md).
 - [Evidencias](evidencias/README.md).
 
 ## Preparación del dataset
@@ -40,8 +42,20 @@ existen, no repetir la preparación: consultar y verificar el registro previo.
 
 ## Estado y condiciones
 
-La preparación se documenta con verificaciones reales. La carga en Hive y las
-preguntas solo se declararán terminadas tras su ejecución y sus evidencias.
+La preparación está verificada y publicada. La pregunta 1 tiene ambas tablas
+cargadas con 9.994 registros y una comparación satisfactoria de los 209.874
+valores. Falta la captura del estudiante para cerrarla; las preguntas 2 a 8 no
+se han ejecutado todavía.
+
+Para mostrar los conteos reales en una tabla y tomar la captura:
+
+```powershell
+wsl -d Ubuntu -- python3 -B scripts/mostrar_carga.py
+```
+
+La carga inicial está en `scripts/cargar_superstore.py`; rechaza una segunda
+ejecución sobre la base existente. Las preguntas solo se declararán terminadas
+tras su ejecución y sus evidencias.
 No se modificarán las bases `db_alexander`, `dbec_alexander`, `db3_alexander`
 ni `db4_alexander`.
 

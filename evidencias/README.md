@@ -5,6 +5,9 @@
 - Los registros `.txt`, `.tsv` o `.json` deben proceder de comandos ejecutados.
 - Las imágenes de cada pregunta serán capturas tomadas por el estudiante,
   con nombres como `p01_modelo_carga.png`.
+- `p01_ejecucion.txt`, `p01_comprobaciones.tsv` y `p01_verificacion.json`
+  corresponden a la carga real y a su verificación completa. La captura de
+  la pregunta 1 está pendiente.
 - No guardar tokens, contraseñas ni archivos de configuración privados.
 
 La preparación no requiere capturas individuales. Para los resultados de las

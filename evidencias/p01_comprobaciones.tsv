@@ -1,0 +1,34 @@
+tabla	registros
+superstore	9994
+superstore_raw	9994
+col_name	data_type	comment
+row_id	int	
+order_id	string	
+order_date	date	
+ship_date	date	
+ship_mode	string	
+customer_id	string	
+customer_name	string	
+segment	string	
+country	string	
+city	string	
+state	string	
+postal_code	string	
+region	string	
+product_id	string	
+category	string	
+sub_category	string	
+product_name	string	
+sales	decimal(12,4)	
+quantity	int	
+discount	decimal(3,2)	
+profit	decimal(12,4)	
+row_id	order_date	ship_date	postal_code	product_name	sales	quantity	discount	profit
+1	2016-11-08	2016-11-11	42420	Bush Somerset Collection Bookcase	261.9600	2	0.00	41.9136
+2	2016-11-08	2016-11-11	42420	Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back	731.9400	3	0.00	219.5820
+3	2016-06-12	2016-06-16	90036	Self-Adhesive Address Labels for Typewriters by Universal	14.6200	2	0.00	6.8714
+17	2014-11-11	2014-11-18	53711	Stur-D-Stor Shelving, Vertical 5-Shelf: 72"H x 36"W x 18 1/2"D	665.8800	6	0.00	13.3176
+row_id	postal_code	city	state
+2235	05408	Burlington	Vermont
+5275	05408	Burlington	Vermont
+8799	05408	Burlington	Vermont

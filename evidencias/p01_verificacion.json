@@ -1,0 +1,15 @@
+{
+  "generated_at_utc": "2026-11-11T16:36:22.144803+00:00",
+  "database": "superstore_alexander_2mom",
+  "raw_records": 9994,
+  "analytical_records": 9994,
+  "columns_compared": 21,
+  "field_values_compared": 209874,
+  "all_values_match_expected_types": true,
+  "utf8_hdfs_sha256": "1d8fb6378c48e005665996f5980e0f0dd4e237b55860eec34f3ad1ca2cddfa91",
+  "original_sha256": "58fb59c63089e564d835e4aabe19d371757de1137a5bf1888243ae386c4b7a97",
+  "original_unchanged": true,
+  "screenshot_status": "pendiente de captura del estudiante",
+  "console_log": "evidencias/p01_ejecucion.txt",
+  "checks_output": "evidencias/p01_comprobaciones.tsv"
+}
