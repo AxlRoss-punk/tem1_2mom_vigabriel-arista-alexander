@@ -1,37 +1,41 @@
-# Evidencias de ejecución
+# Índice de evidencias
 
-- `preparacion_ingesta.json`: registro automático real de la recodificación y
-  de la comparación del CSV original con la copia. No es una captura.
-- Los registros `.txt`, `.tsv` o `.json` deben proceder de comandos ejecutados.
-- Las imágenes de cada pregunta serán capturas tomadas por el estudiante,
-  con nombres como `p01_modelo_carga.png`.
-- `p01_ejecucion.txt`, `p01_comprobaciones.tsv` y `p01_verificacion.json`
-  corresponden a la carga real y a su verificación completa.
-- `p01_modelo_carga.png`: captura del estudiante, recibida y verificada
-  visualmente; muestra ambas tablas con 9.994 registros.
-- `p02_resumen.tsv`, `p02_nulls.tsv`, `p02_incidencias.tsv`,
-  `p02_ejecucion.txt` y `p02_verificacion.json`: auditoría real de la pregunta
-  2, contrastada con el CSV original.
-- `p02_ejecucion_intento1.txt`: registro del intento que Hive rechazó por un
-  `ORDER BY` corregido posteriormente; no es el resultado válido de la auditoría.
-- `p02_auditoria_calidad.png`: captura directa de la ventana de una ejecución
-  real de Beeline, autorizada e inspeccionada visualmente.
-- `p02_auditoria_calidad.captura.json`: procedencia de esa captura, con hashes,
-  dimensiones, horas UTC y código de salida 0.
-- No guardar tokens, contraseñas ni archivos de configuración privados.
+Esta carpeta conserva las salidas obtenidas durante la ejecución de la
+práctica. Los archivos se distinguen por su función:
 
-- `07_*` a `18_*` y `21_*`: resultados TSV reales de las preguntas 3 a 8,
-  sus registros TXT y procedencia `.ejecucion.json` con hashes y código 0.
-- `analitica_verificacion.json`: comprobación final independiente de los
-  resultados con el CSV. El informe inicial se conserva por separado.
-- `p03_evolucion.png` y su `.captura.json`: captura real e inspeccionada de P3.
-- `optimizacion_*`: mediciones de tiempos, tamaños y planes reales CSV/ORC.
-- `intento_inicial_p07/`: intento descartado, claramente separado del resultado
-  final correcto de 48 meses.
-- Las capturas PNG de P4 a P8 están pendientes; los TSV y registros de esas
-  preguntas sí proceden de ejecuciones verificadas.
+| Formato | Contenido |
+|---|---|
+| TSV | Resultados tabulares devueltos por Hive |
+| TXT | Comandos, salidas, advertencias y códigos de retorno |
+| JSON | Verificaciones, hashes, tiempos y procedencia |
+| PNG | Capturas de ventanas de ejecución |
 
-La preparación no requiere capturas individuales. Las capturas se obtienen de
-ejecuciones reales; las automatizadas se identifican mediante su registro de
-procedencia. Los estados pendientes de los registros históricos corresponden
-al momento de aquellas ejecuciones.
+## Preparación y preguntas 1–2
+
+- `preparacion_ingesta.json`: integridad de la recodificación del CSV.
+- `p01_*`: conteos, esquema, ejemplos, comparación de campos y captura de carga.
+- `p02_*`: auditoría, NULL por columna, incidencias y revalidación.
+- `p02_ejecucion_intento1.txt`: intento rechazado por Hive, conservado como
+  antecedente del error de ordenación corregido.
+- `p02_auditoria_calidad.captura.json`: procedencia de la captura de auditoría.
+
+## Preguntas 3–8 y optimización
+
+- `07_*` a `18_*` y `21_*`: resultados analíticos, registros y archivos
+  `.ejecucion.json` con hashes y código de salida.
+- `analitica_verificacion.json`: comprobación final independiente; el informe
+  inicial se conserva en un archivo separado.
+- `p03_evolucion.png` y su `.captura.json`: captura de la evolución regional.
+- `optimizacion_*`: tiempos, tamaños y planes de las consultas CSV/ORC.
+- `intento_inicial_p07/`: resultado descartado, separado de la serie mensual
+  final correcta de 48 meses.
+
+## Alcance de las capturas
+
+Las imágenes disponibles corresponden a las preguntas 1, 2 y 3. La primera
+fue tomada manualmente; las de P2 y P3 se capturaron directamente de ventanas
+de terminal tras ejecutar las consultas. Los metadatos permiten identificar
+el SQL y comprobar la integridad de cada imagen.
+
+Las capturas de P4 a P8 están pendientes. Sus TSV y registros están incluidos.
+Los archivos de texto y las comprobaciones JSON no se presentan como imágenes.

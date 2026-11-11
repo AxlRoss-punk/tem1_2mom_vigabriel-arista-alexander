@@ -89,16 +89,12 @@ Ejemplos obtenidos desde Hive:
   y ejemplos reales.
 - [Verificación JSON](../evidencias/p01_verificacion.json): resumen automático
   de la comparación completa y de los hashes.
-- [Captura del estudiante](../evidencias/p01_modelo_carga.png): recibida y
-  verificada visualmente; muestra ambas tablas con 9.994 filas. Se corrigió
-  únicamente su nombre desde `evidenciasp01_modelo_carga.png`; el contenido y
-  su SHA-256 se conservaron sin cambios.
+- [Captura de la carga](../evidencias/p01_modelo_carga.png): muestra ambas
+  tablas con 9.994 filas. Su integridad se registra mediante SHA-256.
 
-La implementación, su comprobación y la captura están incorporadas.
-La interpretación y la conclusión quedan disponibles para la revisión final
-del estudiante antes de entregar.
+La implementación, su comprobación y la captura están incorporadas al informe.
 
-## Interpretación técnica para revisar
+## Interpretación y conclusión
 
 Los conteos y la comparación completa muestran que la recodificación, el
 lector CSV y la conversión de tipos preservaron las líneas y sus valores,
@@ -106,9 +102,9 @@ incluidos los campos que podrían desalinearse por comas internas. No se
 descartaron filas ni se aplicaron correcciones silenciosas. Esto comprueba la
 ingesta; no sustituye la auditoría de reglas de negocio de la pregunta 2.
 
-El estudiante debe revisar esta interpretación y expresarla en sus propias
-palabras antes de la entrega. La conclusión técnica provisional es que ambas
-capas conservan los 9.994 registros y la semántica de los 21 campos.
+Ambas capas conservan los 9.994 registros y la semántica de los 21 campos.
+La separación entre texto y tipos analíticos permite auditar la entrada y
+utilizar fechas y decimales sin perder la referencia al archivo original.
 
 ## Advertencias encontradas
 

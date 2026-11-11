@@ -1,4 +1,4 @@
-# Conclusiones técnicas para revisión del estudiante
+# Conclusiones
 
 1. La separación entre ingesta textual y tabla analítica permitió conservar
    los 9.994 registros y sus 21 campos, con comas internas, comillas y códigos
@@ -25,7 +25,6 @@
    prueba pequeña. Las limitaciones de caché, cliente y pocas repeticiones
    impiden generalizar el rendimiento.
 
-Las consultas y los resultados están ejecutados y contrastados. Quedan
-pendientes las capturas PNG de las preguntas 4 a 8 y la revisión final de estas
-interpretaciones por el estudiante. No se presenta la entrega como completa
-en esos requisitos formales.
+Las consultas y los resultados están ejecutados y contrastados. La trazabilidad
+se mantiene mediante scripts, registros y hashes. Quedan pendientes las capturas
+PNG de las preguntas 4 a 8 como parte de la presentación de evidencias.

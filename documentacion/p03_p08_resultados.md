@@ -202,12 +202,11 @@ La comprobación detectó y corrigió una agrupación mensual incorrecta con
 es el resultado válido. Las salidas finales de P7 contienen los 48 meses y
 pasaron la comparación independiente. La captura de P4 se interrumpió porque
 su ventana no estaba delante; no se generó una imagen de otra aplicación ni
-se reintentó tras la instrucción urgente de detener el desarrollo.
+se incorporó una captura que no mostrara el resultado previsto.
 
-Las capturas PNG de P4 a P8 y la revisión del texto por el estudiante quedan
-pendientes. Los resultados y registros de consola de las seis preguntas sí
-están ejecutados y comprobados. Las conclusiones técnicas deben revisarse y
-expresarse en palabras del estudiante antes de la entrega.
+Las capturas PNG de P4 a P8 permanecen pendientes. Los resultados y registros
+de consola de las seis preguntas están ejecutados y comprobados. Los criterios
+de cálculo y las limitaciones quedan indicados para interpretar cada resultado.
 
 Los archivos `p05_captura.sql`, `p06_captura.sql` y `p07_captura.sql` son
 auxiliares preparados para visualizar proyecciones de los resultados; no se

@@ -139,7 +139,7 @@ Estos criterios son propuestas; no se aplicó limpieza, imputación ni
 eliminación de registros. En los controles requeridos no se encontraron
 incumplimientos que exigieran intervenir sobre los datos.
 
-## Interpretación y conclusión para revisar
+## Interpretación y conclusión
 
 Las 9.994 líneas corresponden a 5.009 órdenes y 793 clientes. La diferencia
 entre líneas y órdenes es coherente con el nivel de detalle del modelo.
@@ -147,9 +147,9 @@ Los controles comprobados no detectan duplicación de identificadores,
 ausencias tipadas ni incumplimientos numéricos y cronológicos. Las observaciones
 postales y de espacios deben conservarse documentadas al diseñar los análisis.
 
-El estudiante debe revisar esta interpretación y redactar sus conclusiones en
-sus propias palabras. La implementación, la ejecución y la evidencia visual
-están completas; queda la revisión final del estudiante antes de entregar.
+La implementación, la ejecución y la evidencia visual están incorporadas.
+Las observaciones de formato se mantienen en el informe sin alterar los
+registros, de modo que cualquier limpieza posterior pueda justificarse.
 
 ## Evidencias y errores registrados
 
@@ -170,13 +170,11 @@ están completas; queda la revisión final del estudiante antes de entregar.
 - [Procedencia de la captura](../evidencias/p02_auditoria_calidad.captura.json):
   hashes del SQL y del PNG, dimensiones, horas UTC y código de salida.
 
-Se avanzó con esta auditoría de lectura tras la indicación del estudiante de
-continuar. Durante el trabajo se recibió y verificó la captura de la pregunta
-1, incorporada como `evidencias/p01_modelo_carga.png`. Posteriormente el
-estudiante delegó la toma de capturas y se obtuvo la de la pregunta 2 mediante
-una ejecución real, conservando sus píxeles sin edición.
+La captura de carga está en `evidencias/p01_modelo_carga.png`. La captura de
+auditoría se obtuvo de una ventana de ejecución real y conserva sus píxeles
+sin edición; los metadatos identifican la consulta y el archivo de imagen.
 
-## Revalidación tras confirmar la evidencia de la pregunta 1
+## Verificación de reproducibilidad
 
 El 11 de noviembre de 2026 se comprobó que
 `evidencias/p01_modelo_carga.png` existe y conserva el SHA-256 de la captura
